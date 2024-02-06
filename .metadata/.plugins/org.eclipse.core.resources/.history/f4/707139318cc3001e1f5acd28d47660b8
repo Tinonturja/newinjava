@@ -1,0 +1,16 @@
+package grade;
+import java.util.Scanner;
+
+public class grade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float num;
+		Scanner input=new Scanner(System.in);
+		num=input.nextFloat();
+		System.out.print("enter your grade");
+	
+	}
+
+}

@@ -1,0 +1,27 @@
+package giventask;
+import java.util.Scanner;
+public class giventask {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.print("how much apple do you want to buy");
+		//declare the data type of amount of apple
+		int unit;
+		//now call a scanner
+		Scanner input=new Scanner(System.in);
+		//assign the variable unit in the new scanner
+		unit=input.nextInt();
+		System.out.print("you want to buy total amount of apple is"+unit);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
